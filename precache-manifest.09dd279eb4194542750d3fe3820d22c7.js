@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd4d6ea4d7280b86784c7be870744b32",
+    "revision": "0ca0c6e887f1094ba7a2286f4a51e08a",
     "url": "/Anime4Life/index.html"
   },
   {
-    "revision": "3914978d76c16ebd0e9f",
+    "revision": "fcce7443864a71179495",
     "url": "/Anime4Life/static/css/main.b1d8cebe.chunk.css"
   },
   {
-    "revision": "2c4776423ea63642b3ff",
-    "url": "/Anime4Life/static/js/2.c1ac5e76.chunk.js"
+    "revision": "845f9601f166d470181e",
+    "url": "/Anime4Life/static/js/2.b7fc92ac.chunk.js"
   },
   {
     "revision": "89b0379e7bcda1a468d8b0343aeb4e53",
-    "url": "/Anime4Life/static/js/2.c1ac5e76.chunk.js.LICENSE.txt"
+    "url": "/Anime4Life/static/js/2.b7fc92ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3914978d76c16ebd0e9f",
-    "url": "/Anime4Life/static/js/main.aa8a8b42.chunk.js"
+    "revision": "fcce7443864a71179495",
+    "url": "/Anime4Life/static/js/main.7817589f.chunk.js"
   },
   {
     "revision": "a804e4b9471d6327112b",
