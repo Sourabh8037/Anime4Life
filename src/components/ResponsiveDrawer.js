@@ -25,6 +25,7 @@ import BookIcon from "@material-ui/icons/Book";
 import AnimeInfo from "./AnimeInfo";
 import MangaInfo from "./MangaInfo";
 import { NavLink, Redirect, Route, Switch } from "react-router-dom";
+import { blueGrey } from "@material-ui/core/colors";
 
 const drawerWidth = 240;
 
@@ -66,6 +67,7 @@ const useStyles = makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
   drawerPaper: {
     width: drawerWidth,
+    background:blueGrey[900],
   },
   content: {
     flexGrow: 1,

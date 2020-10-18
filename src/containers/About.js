@@ -1,6 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
+import "../App.css";
 
 const useStyles = makeStyles((theme) => ({
   title: {
@@ -30,7 +31,7 @@ const About = () => {
         src={require("../assets/images/animeCharacters.jpg")}
         className={classes.image}
       />
-      <Typography variant="h2" className={classes.title}>
+      <Typography className="title">
         ANIME 4 LIFE
       </Typography>
       <Typography variant="subtitle1">Developer: Sourabh Hande</Typography>

@@ -6,20 +6,9 @@ import {
   Divider,
   Typography,
 } from "@material-ui/core";
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    width: "100%",
-    height: "100%",
-    padding: "1rem",
-  },
-  title: {
-    fontFamily: "Patrick Hand",
-  },
-}));
+import "../App.css";
 
 const Quotes = (props) => {
-  const classes = useStyles();
   const [quote, setQuote] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -39,7 +28,7 @@ const Quotes = (props) => {
   const addQuotes = async () => {
     setLoading(true);
     setQuote([]);
-    for (let index = 0; index < 5; index++) {
+    for (let index = 0; index < 8; index++) {
       await getQuote();
     }
     setLoading(false);
@@ -52,7 +41,11 @@ const Quotes = (props) => {
       ) : (
         quote.map((item) => (
           <div key={item.anime}>
-            <Typography variant="h5" className={classes.title}>
+            <Typography variant="h5" style={{
+    width: "100%",
+    height: "100%",
+    padding: "1rem",
+  }}>
               {item.quote}
             </Typography>
             <Typography variant="h6" align="right">
@@ -63,11 +56,22 @@ const Quotes = (props) => {
         ))
       )}
       {loading ? null : (
+        // <Button
+        //   variant="outlined"
+        //   color="primary"
+        //   fullWidth
+        //   size="large"
+        //   className={classes.btn}
+        //   onClick={addQuotes}>
+        //   <Typography className={classes.title}>
+        //   View New Quotes
+        //   </Typography>
+        // </Button>
         <Button
-          variant="contained"
           color="primary"
           fullWidth
           size="large"
+          className="linear-gradient-btn"
           onClick={addQuotes}>
           View New Quotes
         </Button>
