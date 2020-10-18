@@ -35,17 +35,17 @@ const Quotes = (props) => {
   };
 
   return (
-    <div className={classes.root}>
+    <div style={{
+      width: "100%",
+      height: "100%",
+      padding: "1rem",
+    }}>
       {loading ? (
         <CircularProgress size={80} thickness={5} />
       ) : (
         quote.map((item) => (
           <div key={item.anime}>
-            <Typography variant="h5" style={{
-    width: "100%",
-    height: "100%",
-    padding: "1rem",
-  }}>
+            <Typography variant="h5" style={{fontFamily:"Patrick Hand"}}>
               {item.quote}
             </Typography>
             <Typography variant="h6" align="right">

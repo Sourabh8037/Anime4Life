@@ -7,6 +7,7 @@ import {
   Typography,
   Divider,
   CardContent,
+  Button,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -142,11 +143,11 @@ const MangaInfo = (props) => {
                 <Grid item xs={3} sm={2}>
                   <img src={character.image_url} height={80} width={50}></img>
                   <CardContent>
-                    <a href={character.url} style={{ textDecoration: "none" }}>
+                    <Button href={character.url} link fullWidth>
                       <Typography variant="h6" className={classes.title}>
                         {character.name}
                       </Typography>
-                    </a>
+                    </Button>
                   </CardContent>
                 </Grid>
               ))}
