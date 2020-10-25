@@ -34,7 +34,6 @@ const About = () => {
       <Typography className="title">
         ANIME 4 LIFE
       </Typography>
-      <Typography variant="subtitle1">Developer: Sourabh Hande</Typography>
     </div>
   );
 };
