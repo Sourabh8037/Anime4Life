@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Anime4Life/static/css/main.bafc5228.chunk.css",
-    "main.js": "/Anime4Life/static/js/main.63137300.chunk.js",
-    "main.js.map": "/Anime4Life/static/js/main.63137300.chunk.js.map",
+    "main.css": "/Anime4Life/static/css/main.a43bc2c3.chunk.css",
+    "main.js": "/Anime4Life/static/js/main.950ba1f7.chunk.js",
+    "main.js.map": "/Anime4Life/static/js/main.950ba1f7.chunk.js.map",
     "runtime-main.js": "/Anime4Life/static/js/runtime-main.c270b5ce.js",
     "runtime-main.js.map": "/Anime4Life/static/js/runtime-main.c270b5ce.js.map",
     "static/js/2.2b667c50.chunk.js": "/Anime4Life/static/js/2.2b667c50.chunk.js",
     "static/js/2.2b667c50.chunk.js.map": "/Anime4Life/static/js/2.2b667c50.chunk.js.map",
     "index.html": "/Anime4Life/index.html",
-    "precache-manifest.45fbe88554eb41e91bbbfef4f4603fcd.js": "/Anime4Life/precache-manifest.45fbe88554eb41e91bbbfef4f4603fcd.js",
+    "precache-manifest.a00bb056f9405bacac86498b6a2773f2.js": "/Anime4Life/precache-manifest.a00bb056f9405bacac86498b6a2773f2.js",
     "service-worker.js": "/Anime4Life/service-worker.js",
-    "static/css/main.bafc5228.chunk.css.map": "/Anime4Life/static/css/main.bafc5228.chunk.css.map",
+    "static/css/main.a43bc2c3.chunk.css.map": "/Anime4Life/static/css/main.a43bc2c3.chunk.css.map",
     "static/js/2.2b667c50.chunk.js.LICENSE.txt": "/Anime4Life/static/js/2.2b667c50.chunk.js.LICENSE.txt",
     "static/media/animeCharacters.jpg": "/Anime4Life/static/media/animeCharacters.b649fef9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c270b5ce.js",
     "static/js/2.2b667c50.chunk.js",
-    "static/css/main.bafc5228.chunk.css",
-    "static/js/main.63137300.chunk.js"
+    "static/css/main.a43bc2c3.chunk.css",
+    "static/js/main.950ba1f7.chunk.js"
   ]
 }
